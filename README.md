@@ -1,6 +1,13 @@
 # iris-project-template
 
+Pre-requisite
+
+```
+phantomjs
+python
+```
 Installation
+
 ```
 npm install -g grunt
 npm install -g casperjs
