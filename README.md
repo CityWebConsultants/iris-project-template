@@ -7,6 +7,11 @@ npm install -g casperjs
 npm install --only=dev
 ```
 
+Run
+
+```
+node index.js site=default
+```
 
 test
 
