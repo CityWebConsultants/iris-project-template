@@ -3,7 +3,7 @@ node_js: "5.5"
 before_install: 
   - npm install -g grunt-cli jasmine-node
 before_script:
-  - node iris.js site=default
+  - node index.js site=default
 install: 
   - npm install --dev
 services:
