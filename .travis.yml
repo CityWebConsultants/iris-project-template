@@ -4,6 +4,7 @@ before_install:
   - npm install -g grunt-cli jasmine-node
 before_script:
   - node index.js site=default
+  - npm test
 install: 
   - npm install --dev
 services:
