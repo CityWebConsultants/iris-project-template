@@ -1,0 +1,14 @@
+language: node_js
+node_js: "5.5"
+before_install: 
+  - npm install -g grunt-cli jasmine-node
+before_script:
+  - node iris.js site=default
+install: 
+  - npm install --dev
+services:
+  - mongodb
+env: site=default
+addons:
+  hosts:
+    - www.iris.local
