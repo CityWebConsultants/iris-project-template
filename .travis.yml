@@ -1,9 +1,9 @@
 language: node_js
 node_js: "5.5"
 before_install: 
-  - npm install -g grunt-cli jasmine-node
+  - npm install -g grunt-cli jasmine-node pm2
 before_script:
-  - node index.js site=default
+  - pm2 start index.js -- site=default
   - npm test
 install: 
   - npm install --dev
