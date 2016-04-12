@@ -5,6 +5,6 @@ require('irisjs')({
   "https_cert": "", 
   "db_server": "localhost", 
   "db_port": 27017, 
-  "db_name": "site1", 
+  "db_name": "mysite", 
   "max_file_size": 10, 
-  "path": "/sites/site1" });
+  "path": "/sites/mysite" });
