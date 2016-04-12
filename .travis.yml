@@ -4,13 +4,12 @@ before_install:
   - npm install -g grunt-cli jasmine-node pm2
 before_script:
   - mongoimport --db mysite --collection users --file users.json
-  - pm2 start index.js -- site=default
+  - pm2 start index.js
   - npm test
 install: 
   - npm install --dev
 services:
   - mongodb
-env: site=default
 addons:
   hosts:
     - www.iris.local
