@@ -1,0 +1,7 @@
+{
+  "name": "ckeditor",
+  "weight": 4,
+  "dependencies":{
+    "entityUI": "1"
+  }
+}

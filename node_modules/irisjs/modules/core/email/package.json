@@ -1,0 +1,7 @@
+{
+  "name": "iris-email",
+  "version": "0.0.1",
+  "description": "Email",
+  "main": "email.js",
+  "author": "City Web Consultants"
+}

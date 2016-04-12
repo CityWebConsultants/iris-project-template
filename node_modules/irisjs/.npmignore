@@ -1,0 +1,14 @@
+.DS_Store
+node_modules/
+docs
+home/*
+home/sites/*
+!home/sites
+!home/sites/default/
+!home/sites/default/*
+home/themes/*
+!home/themes
+!home/themes/base/
+!home/themes/base/*
+
+/nbproject/private/

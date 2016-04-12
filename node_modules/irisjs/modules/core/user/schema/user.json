@@ -1,0 +1,34 @@
+{
+  "entityTypeName": "user",
+  "fields": {
+    "username": {
+      "fieldType": "Textfield",
+      "label": "Username",
+      "description": "This can be changed",
+      "permissions": ["anonymous", "authenticated"],
+      "unique": true
+    },
+    "roles": {
+      "fieldType": "Multi text field",
+      "label": "Roles",
+      "description": "What roles does this user have",
+      "permissions": []
+    },
+    "password": {
+      "fieldType": "Password",
+      "label": "Password",
+      "description": "Keep it strong",
+      "permissions": []
+    },
+    "lastlogin": {
+      "fieldType": "Date",
+      "label": "lastlogin",
+      "description": "",
+      "permissions": [],
+      "unique": false,
+      "weight": "0",
+      "machineName": "lastlogin",
+      "required": false
+    }
+  }
+}

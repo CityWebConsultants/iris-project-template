@@ -1,0 +1,33 @@
+
+<nav class="menu menu--{{menuName}}">
+
+  <ul class="menu">
+
+    {{#menu}}
+
+        <li {{#children}} class="has-children" {{/children}}>
+
+      <a href="{{path}}">{{title}}</a>
+          
+          {{#if this.children}}
+          <ul class="sub-menu">
+              {{#children}}
+
+          
+
+            <li><a href="{{path}}">{{title}}</a></li>
+
+          
+
+          {{/children}}
+          </ul>
+          
+          {{/if}}
+      
+    </li>
+
+    {{/menu}}
+
+  </ul>
+
+</nav>

@@ -1,0 +1,7 @@
+{
+  "name": "Regions",
+  "weight": 2,
+  "dependencies": {
+    "blocks": "1"
+  }
+}
