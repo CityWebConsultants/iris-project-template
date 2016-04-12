@@ -33,5 +33,10 @@
 	"Field type": "Field type",
 	"Add new field": "Add new field",
 	"Save": "Save",
-	"Create new {{type}}": "Create new {{type}}"
+	"Create new {{type}}": "Create new {{type}}",
+	"Confirm your password": "Confirm your password",
+	"Your passwords do not match": "Your passwords do not match",
+	"Don't worry, that short glitch was the server restarting to install the Standard profile.": "Don't worry, that short glitch was the server restarting to install the Standard profile.",
+	"UI modules enabled.": "UI modules enabled.",
+	"Error saving entity": "Error saving entity"
 }
