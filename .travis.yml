@@ -5,7 +5,6 @@ before_install:
 before_script:
   - mongoimport --db mysite --collection users --file users.json
   - pm2 start index.js
-  - npm test
 install: 
   - npm install --dev
 services:
