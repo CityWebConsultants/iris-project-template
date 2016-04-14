@@ -3,7 +3,8 @@ node_js: "5.5"
 before_install: 
   - npm install -g grunt-cli jasmine-node pm2
 before_script:
-  - mongoimport --db mysite --collection users --file users.json
+  - mongoimport --db mysite --collection users --file fixtures/users.json
+  - mongoimport --db mysite --collection pages --file fixtures/pages.json
   - pm2 start index.js
 install: 
   - npm install --dev
