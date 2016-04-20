@@ -1,1 +1,1 @@
-{"_id":{"$oid":"570ce8a8f1caa5c42a7c44c0"},"eid":6,"entityType":"user","entityAuthor":"6","password":"$2a$10$Dbm7gZJZoUPoH/QvSk5BFuxZkY09FSa3M9peITFVeW4ARFsyUcoI6","username":"foo@foo.com","roles":["admin"],"__v":0}
+{"_id":{"$oid":"570ce8a8f1caa5c42a7c44c0"},"eid":1,"entityType":"user","entityAuthor":"1","password":"$2a$10$Dbm7gZJZoUPoH/QvSk5BFuxZkY09FSa3M9peITFVeW4ARFsyUcoI6","username":"foo@foo.com","roles":["admin"],"__v":0}
