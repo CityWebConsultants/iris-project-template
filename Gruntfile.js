@@ -8,7 +8,7 @@ module.exports = function(grunt) {
           forceExit: false,
           match: '.',
           matchAll: false,
-          specFolders: ['node_modules/irisjs/test/api'],
+          specFolders: ['node_modules/irisjs/test/api/'],
           extensions: 'js',
           specNameMatcher: 'spec',
           captureExceptions: true,
