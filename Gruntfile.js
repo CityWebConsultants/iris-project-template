@@ -8,7 +8,7 @@ module.exports = function(grunt) {
           forceExit: false,
           match: '.',
           matchAll: false,
-          specFolders: ['node_modules/irisjs/test'],
+          specFolders: ['node_modules/irisjs/test/api'],
           extensions: 'js',
           specNameMatcher: 'spec',
           captureExceptions: true,
@@ -34,6 +34,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-jasmine-node-coverage');
   grunt.loadNpmTasks('grunt-contrib-jasmine');
   grunt.loadNpmTasks('grunt-casperjs');
-  grunt.registerTask('default', 'casperjs');
+  grunt.registerTask('default',['casperjs','jasmine_node']);
 
 };

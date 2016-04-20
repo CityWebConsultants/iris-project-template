@@ -18,6 +18,6 @@
     "jshint": "^2.9.1"
   },
   "dependencies": {
-    "irisjs": "git+https://github.com/facascante/Iris.git#casperjs_schema_index_test"
+    "irisjs": "git+https://github.com/CityWebConsultants/Iris.git#develop"
   }
 }
