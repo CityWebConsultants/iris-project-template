@@ -43,9 +43,6 @@
 	"Change your password by typing a new one into the form below": "Change your password by typing a new one into the form below",
 	"Delete entity {{id}}?": "Delete entity {{id}}?",
 	"Are you sure you want to delete this entity?": "Are you sure you want to delete this entity?",
-	"Active theme": "Active theme",
 	"Default roles: anonymous, authenticated": "Default roles: anonymous, authenticated",
-	"Name": "Name",
-	"Choose mail system": "Choose mail system",
-	"Submit": "Submit"
+	"Name": "Name"
 }
