@@ -26,9 +26,10 @@ module.exports = function(grunt) {
       options: {
         async: {
           parallel: false
-        }
+        },
+        silent: false
       },
-      files: ['node_modules/irisjs/test/**/*Spec.js']
+      files: ['node_modules/irisjs/test/ui']
     }
   });
   grunt.loadNpmTasks('grunt-jasmine-node-coverage');

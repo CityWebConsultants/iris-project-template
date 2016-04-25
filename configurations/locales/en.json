@@ -44,5 +44,10 @@
 	"Delete entity {{id}}?": "Delete entity {{id}}?",
 	"Are you sure you want to delete this entity?": "Are you sure you want to delete this entity?",
 	"Default roles: anonymous, authenticated": "Default roles: anonymous, authenticated",
-	"Name": "Name"
+	"Name": "Name",
+	"Fields sucessfully saved": "Fields sucessfully saved",
+	"Delete field {{field}} on entity type {{type}}": "Delete field {{field}} on entity type {{type}}",
+	"Are you sure you want to delete this field?": "Are you sure you want to delete this field?",
+	"Cancel": "Cancel",
+	"Text filter": "Text filter"
 }
