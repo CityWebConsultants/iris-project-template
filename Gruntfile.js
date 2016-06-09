@@ -34,6 +34,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-jasmine-node-coverage');
   grunt.loadNpmTasks('grunt-contrib-jasmine');
   grunt.loadNpmTasks('grunt-casperjs');
-  grunt.registerTask('default', ['jasmine_node','casperjs']);
+  grunt.registerTask('ui', ['casperjs']);
+  grunt.registerTask('api', ['jasmine_node']);
 
 };
