@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "grunt default"
+    "test": "grunt ui && grunt api"
   },
   "author": "",
   "license": "ISC",
